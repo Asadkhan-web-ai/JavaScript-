@@ -1,0 +1,12 @@
+const population = [10, 1441, 332, 83];
+
+const percantage2 = [];
+
+for (let i = 0; i < population.length; i++){
+    
+    const perc = percantageOfWorld1(populations[i]);
+    
+    percantage2.push(perc);
+}
+
+console.log(percantage2);
