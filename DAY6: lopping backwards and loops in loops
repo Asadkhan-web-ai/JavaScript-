@@ -1,0 +1,9 @@
+const listofNeighbours =[
+    ['Canada', 'Mexico'],
+    ['Spain'],
+    ['Norway', 'Sweden', 'Russia'],
+];
+
+for (let i = 0; i < listofNeighbours.lenghth; i++)
+  for (let y = 0; y < listofNeighbours[i].length; y++)
+    console.log('Neighbour: ${listofNeighbours[i]}');
